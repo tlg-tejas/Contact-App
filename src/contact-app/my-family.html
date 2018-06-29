@@ -12,6 +12,7 @@
 <link rel="import" href="../../bower_components/vadin-grid/vaadin-grid-filter.html">
 <link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../../bower_components/paper-toast/paper-toast.html">
+<link rel="import" href="../../bower_components/paper-spinner/paper-spinner.html">
 <link rel="import" href="../common-styles.html">
 
 <dom-module id="my-family">
@@ -28,7 +29,8 @@
   </template>
 
   <paper-toast id="toast" text="[[toastMessage]]" duration="4000"></paper-toast>
-
+  <paper-spinner id="spinner" alt="Please wait..."></paper-spinner>
+  <span class="display-message">[[displayMessage]]</span>
   <template is="dom-if" if="[[user]]">
     <div class="contact-list">
       <!-- The array is set as the <vaadin-grid>'s "items" property -->
@@ -115,22 +117,24 @@
               observer:'observeContacts'
             },
             toastMessage: String,
-            familyContacts: Object
+            familyContacts: Object,
+            displayMessage: String
         };
       }
 
       removeContact(e){
         let id = e.target.id;
         if(id) {
-          let success = this.shadowRoot.querySelector('#query').ref.child(id).remove();
+          this.shadowRoot.querySelector('#spinner').setAttribute('active', true)
+          this.set('displayMessage', 'Please wait while we complete your request.');
+          this.shadowRoot.querySelector('#query').ref.child(id).remove();
           this.set('toastMessage', 'Contact Removed Successfully!')
-          console.log('family removed', this.contacts);
           setTimeout(()=> {
             this.dispatchEvent(new CustomEvent('contact-added', { detail: { contacts: this.contacts }, bubbles: true, composed: true }));
+            this.shadowRoot.querySelector('#spinner').removeAttribute('active')
+            this.set('displayMessage', '');
             this.shadowRoot.querySelector('#toast').open();
           },3000).bind(this);
-          
-          
         }
       }
 

@@ -1,10 +1,16 @@
-# \<evolent-contact-app\>
+# \<contact-app\>
 
 Application to maintain contact details
 
-## Install the Polymer-CLI
+##Minimum Requirements to run app locally
+
+1. Install Node.js from 
+2. Install bower by command - npm install bower -g --save
+3. Install the Polymer-CLI
 
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
+
+4. In the main folder run command bower install to load all packages from bower.json file
 
 ## Viewing Your Application
 
