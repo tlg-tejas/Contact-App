@@ -1,0 +1,100 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/polymerfire/firebase-auth.html">
+<link rel="import" href="../common-styles.html">
+
+<dom-module id="app-header">
+  <template>
+    <style include="common-styles iron-flex iron-flex-alignment">
+        .header-content {
+            @apply --layout-horizontal;
+            @apply --layout-justified;
+        }
+        .welcome-user {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--app-important-color);
+            margin-top: 6px;
+        }
+        .login-content {
+            @apply --layout-horizontal;
+            @apply --layout-self-center;
+        }
+    </style>
+
+    <!-- SECOND: Firebase auth -->
+    <firebase-auth id="auth" user="{{user}}" provider="google" >
+    </firebase-auth>
+    <div class="header-content">
+        <div class="logo-content">
+            <img src="/src/Images/evolent_logo.png" height="40"  alt="Home">
+        </div>
+        <div class="login-content">
+            <div class="welcome-user">Welcome [[displayUserName]]!!</div>
+            <div>
+                <template is="dom-if" if="[[!user]]">
+                    <paper-button on-tap="login">
+                    Login
+                    </paper-button>
+                </template>
+                
+                <template is="dom-if" if="[[user]]">
+                        <paper-button on-tap="logout">
+                        Logout
+                        </paper-button>
+                </template>
+            </div>
+        </div>
+    </div>
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class AppHeader extends Polymer.Element {
+      static get is() { return 'app-header'; }
+      static get properties() {
+        return {
+            user: {
+                type: Object,
+                notify: true,
+                value: false,
+                observer: 'setDisplayUserName'
+            },
+            displayUserName: String
+        };
+      }
+
+        setDisplayUserName(){
+            if(this.user){
+                this.set('displayUserName', this.user.displayName);
+            }
+            else{
+                this.set('displayUserName', 'Guest');
+            }
+        }
+
+        // SECOND Firebase sign in
+        login() {
+          this.shadowRoot.querySelector('#auth').signInWithPopup().then((result) => {
+            this.set('displayUserName', result.user.displayName);
+            console.log('Hello ' + result.user.displayName)
+          });
+        }
+      
+        logout() {
+            this.shadowRoot.querySelector('#auth').signOut().then(() => {
+            this.set('displayUserName', 'Guest');
+            console.log('Goodbye!')
+            })
+        }
+
+    }
+
+    window.customElements.define(AppHeader.is, AppHeader);
+  </script>
+</dom-module>

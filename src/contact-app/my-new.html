@@ -1,0 +1,198 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/polymerfire/firebase-query.html">
+<link rel="import" href="../../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/paper-dropdown-menu/paper-dropdown-menu.html">
+<link rel="import" href="../../bower_components/paper-listbox/paper-listbox.html">
+<link rel="import" href="../../bower_components/paper-item/paper-item.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/iron-icons/communication-icons.html">
+<link rel="import" href="../../bower_components/paper-toast/paper-toast.html">
+<link rel="import" href="../common-styles.html">
+
+
+<dom-module id="my-new">
+  <template>
+    <style include="common-styles iron-flex iron-flex-alignment">
+      .contact-form {
+        @apply --layout-vertical;
+      }
+
+      .add-contact-title,
+      .name-field,
+      .birth-date-field,
+      .email-phone-field,
+      .status-group-field,
+      .submit-field {
+        @apply --layout-horizontal;
+      }
+      .name-field > *:nth-child(odd) {
+        margin-right: 10px;
+      }
+      .name-field > *:nth-child(even) {
+        margin-right: 10px;
+      }
+      
+      .status-group-field > *:nth-child(even),
+      .email-phone-field > *:nth-child(even) {
+        margin-left: 10px;
+      }
+      
+      .add-contact-title {
+        color: var(--app-important-color);
+      }
+      .submit-field {
+        @apply --layout-end-justified;
+      }
+    </style>
+
+  <template is="dom-if" if=[[user]]>
+    <firebase-query id="query" 
+      path="/users/[[user.uid]]/contacts"
+      data="{{contacts}}">
+    </firebase-query>
+  </template>
+
+  <div class="contact-form">
+    <div>
+      <paper-toast id="toast" text="[[toastMessage]]" duration="4000"></paper-toast>
+    </div>
+    <div class="add-contact-title">
+      <h1>
+        Create New Contact
+      </h1>
+    </div>
+    <div class="name-field">
+      <paper-input id="firstName" allowed-pattern="[a-zA-Z]" name="firstName" value="{{firstName}}" required label="First Name*" required></paper-input>
+      <paper-input id="middleName" name="middleName" value="{{middleName}}" label="Middle Name"></paper-input>
+      <paper-input id="lastName" allowed-pattern="[a-zA-Z]" name="lastName" required value="{{lastName}}" label="Last Name*" required></paper-input>
+    </div>
+    <div class="birth-date-field">
+
+    </div>
+    <div class="email-phone-field">
+        <paper-input id="email" type="email" required name="email" value="{{email}}" label="Email*" required>
+            <iron-icon icon="mail" slot="prefix"></iron-icon>
+        </paper-input>
+        <paper-input id="phone" maxlength="15" name="phone" required allowed-pattern="[0-9]" value="{{phone}}" label="Phone Number*" required>
+            <iron-icon icon="communication:phone" slot="prefix"></iron-icon>
+        </paper-input>
+    </div>
+    <div class="status-group-field">
+        <paper-dropdown-menu vertical-offset="60" id="status" required label="Select Status*" horizontal-align="left"
+        noink no-animations>
+          <paper-listbox attr-for-selected="status" slot="dropdown-content" selected="{{status}}">
+            <paper-item status="Active">Active</paper-item>
+            <paper-item status="Inactive">Inactive</paper-item>
+          </paper-listbox>
+        </paper-dropdown-menu>
+        <paper-dropdown-menu vertical-offset="60" id="group" label="Select Group" horizontal-align="left"
+        noink no-animations>
+          <paper-listbox attr-for-selected="group" slot="dropdown-content" selected="{{group}}">
+            <paper-item group="Starred">Starred</paper-item>
+            <paper-item group="Friends">Friends</paper-item>
+            <paper-item group="Family">Family</paper-item>
+            <paper-item group="Acquaintances">Acquaintances</paper-item>
+            <paper-item group="Following">Following</paper-item>
+          </paper-listbox>
+        </paper-dropdown-menu>
+    </div>
+    <div class="submit-field">
+        <paper-button on-tap="addContact" id="add">Add Contact</paper-button>
+    </div>
+  </div>
+  
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class MyNew extends Polymer.Element {
+      static get is() { return 'my-new'; }
+      static get properties() {
+        return {
+          user: {
+                type: Object,
+                notify: true,
+                value: false
+            },
+            contacts: {
+              type: Object,
+              observer:'observeContacts'
+            },
+
+            firstName: String,
+            middleName: String,
+            lastName: String,
+            email:String,
+            phone:Number,
+            status: {
+              type: String,
+              value: 'Active'
+            },
+            group: String,
+            toastMessage: String,
+            key: String
+        };
+      }
+
+      observeContacts(){
+        this.dispatchEvent(new CustomEvent('contact-added', { detail: { contacts: this.contacts }, bubbles: true, composed: true }));
+      }
+      
+      addContact(){
+        if(this.validate()){
+          var request = this.createRequest();
+          let success = this.shadowRoot.querySelector('#query').ref.push(request);
+          this.set('toastMessage', 'Contact Successfully Added! Cheers!')
+          this.dispatchEvent(new CustomEvent('contact-added', { detail: { contacts: this.contacts }, bubbles: true, composed: true }));
+          this.shadowRoot.querySelector('#toast').open();
+          this.reset();
+        }
+      }
+
+      validate() {
+        var check = true;
+        var requiredFields = this.shadowRoot.querySelectorAll('[required]');
+        for (var i = 0; i < requiredFields.length; i++) {
+            if (requiredFields[i].validate && typeof requiredFields[i].validate === 'function' && !requiredFields[i].validate()) {
+                check = false;
+            }
+        }
+        return check;
+      }
+
+      createRequest() {
+        let request = {
+          Name: {
+            FirstName: this.firstName,
+            MiddleName: this.middleName,
+            LastName: this.lastName
+          },
+          Status: this.status,
+          Group: this.group ? this.group : '',
+          Email: this.email,
+          Phone: this.phone
+        }
+        return request;
+      }
+
+      reset() {
+        this.firstName = '';
+        this.middleName = '';
+        this.lastName = '';
+        this.status = 'Active',
+        this.group = '';
+        this.email = '';
+        this.phone = '';
+      }
+      
+    }
+
+    window.customElements.define(MyNew.is, MyNew);
+  </script>
+</dom-module>

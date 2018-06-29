@@ -1,0 +1,35 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../common-styles.html">
+
+<dom-module id="pre-login-notes">
+  <template>
+    <style include="common-styles iron-flex iron-flex-alignment">
+    </style>
+
+    I am pre-login-notes component
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+
+     
+    class PreLoginNotes extends Polymer.Element {
+      static get is() { return 'pre-login-notes'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'my-contacts'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(PreLoginNotes.is, PreLoginNotes);
+  </script>
+</dom-module>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>contact-app</title>
+    <meta name="description" content="Application to maintain contact details">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="/manifest.json">
+
+    <link rel="shortcut icon" href="https://www.evolenthealth.com/sites/all/themes/evolentcorporate/favicon.ico" type="image/vnd.microsoft.icon">
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="My App">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Contact App">
+
+    <!-- Homescreen icons -->
+    <link rel="apple-touch-icon" href="images/manifest/icon-48x48.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/manifest/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="images/manifest/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/manifest/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/manifest/icon-192x192.png">
+
+    <!-- Tile icon for Windows 8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/manifest/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#3f51b5">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <script>
+        /**
+        * [polymer-root-path]
+        *
+        * By default, we set `Polymer.rootPath` to the server root path (`/`).
+        * Leave this line unchanged if you intend to serve your app from the root
+        * path (e.g., with URLs like `my.domain/` and `my.domain/view1`).
+        *
+        * If you intend to serve your app from a non-root path (e.g., with URLs
+        * like `my.domain/my-app/` and `my.domain/my-app/view1`), edit this line
+        * to indicate the path from which you'll be serving, including leading
+        * and trailing slashes (e.g., `/my-app/`).
+        */
+        window.Polymer = {rootPath: '/contact-app/'};
+        // Load and register pre-caching Service Worker
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('service-worker.js', {
+              scope: Polymer.rootPath,
+            });
+          });
+        }
+      </script>
+
+<script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+
+<link rel="import" href="/src/contact-app/contact-app.html">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <contact-app></contact-app>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<link rel="import" href="../../bower_components/shadycss/apply-shim.html">     <!-- import CSS mixins polyfill -->
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+
+<dom-module id="common-styles">
+    <template>
+        <style is="custom-style" include="iron-flex iron-flex-alignment">
+            :host {
+                --app-primary-color: #fff;
+                --app-secondary-color: black;
+                --app-important-color:#2fc7f7;
+                --default-border-dimensions: 1px solid var(--app-important-color);
+                --default-text-size:14px;
+                --primary-font-family: "Signika", sans-serif;
+                font-family: var(--primary-font-family);
+                --default-text-size: 14px;
+                --app-blue-color: #dee7eb;
+                --app-blue-light-color: #ebfaff;
+                --app-black-color: rgba(0, 0, 0, 0.87);
+                --app-medium-background-color: #eef3f5;
+                --app-light-background-color: #f1f1f1;
+                --primary-text-color: var(--app-87-color);
+                --error-color: red;
+                --success-color: #11a223;
+                --muted-text-color: #7d7d7d;
+                --paper-input-container-invalid-color: var(--error-color);
+                --paper-input-error: var(--error-color);
+                --iron-icon-fill-color: var(--app-important-color);
+                --paper-input-container-focus-color: var(--app-important-color);
+                --paper-item: {
+                        max-height:10px;
+                    };
+                --paper-button: {
+                    background-color: var(--app-important-color);
+                    color: var(--app-primary-color, #fff);
+                    border-radius: 3px;
+                    font-size: var(--default-text-size);
+                    min-width: 5.14em;
+                };
+                --paper-button-link: {
+                    color: var(--app-important-color);
+                    text-transform: capitalize;
+                    border-color: transparent;
+                    background-color: transparent;
+                };
+            }
+            .container {
+                max-width: 1180px;
+                margin: 0 auto;
+            } 
+
+        </style>
+    </template>
+</dom-module>
