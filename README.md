@@ -4,7 +4,7 @@ Application to maintain contact details
 
 ##Minimum Requirements to run app locally
 
-1. Install Node.js from 
+1. Install Node.js from https://nodejs.org/en/download/
 2. Install bower by command - npm install bower -g --save
 3. Install the Polymer-CLI
 
