@@ -114,8 +114,7 @@
                 value: false
             },
             contacts: {
-              type: Object,
-              observer:'observeContacts'
+              type: Object
             },
             toastMessage: String,
             displayMessage: String
@@ -139,11 +138,10 @@
       }
 
       editContact(e){
-
-      }
-
-      observeContacts(){
-        console.log(this.contacts);
+        let id= e.target.id;
+        if(id){
+          this.dispatchEvent(new CustomEvent('edit-contact', { detail: { key: id }, bubbles: true, composed: true }));
+        }
       }
      
     }

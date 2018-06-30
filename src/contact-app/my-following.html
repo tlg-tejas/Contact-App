@@ -138,7 +138,10 @@
       }
 
       editContact(e){
-
+        let id= e.target.id;
+        if(id){
+          this.dispatchEvent(new CustomEvent('edit-contact', { detail: { key: id }, bubbles: true, composed: true }));
+        }
       }
     }
 

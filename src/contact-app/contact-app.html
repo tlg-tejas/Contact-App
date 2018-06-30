@@ -279,6 +279,14 @@
       this.addEventListener('contact-added', e => {
                     this.calculateContactCounts(e.detail.contacts);
                 });
+
+      this.addEventListener('edit-contact', e => {
+          this.editContact(e.detail.key);
+      });
+    }
+
+    editContact(id) {
+      window.location = this.rootPath + 'new/#' + id;
     }
     
     calculateContactCounts(contacts){
@@ -300,7 +308,7 @@
       }
     }
 
-    getCount(group,contacts){
+    getCount(group,contacts) {
       return contacts.filter(contact => contact.Group === group);
       
     }
@@ -320,6 +328,7 @@
             this._showPage404.bind(this),
             true);
       }
+
       _showPage404() {
         this.page = 'view404';
       }

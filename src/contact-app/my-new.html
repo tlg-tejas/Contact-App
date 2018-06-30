@@ -10,6 +10,7 @@
 <link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../../bower_components/iron-icons/communication-icons.html">
 <link rel="import" href="../../bower_components/paper-toast/paper-toast.html">
+<link rel="import" href="../../bower_components/paper-spinner/paper-spinner.html">
 <link rel="import" href="../common-styles.html">
 
 
@@ -55,6 +56,8 @@
     </firebase-query>
   </template>
 
+  <paper-spinner id="spinner" alt="Please wait..."></paper-spinner>
+  <span class="display-message">[[displayMessage]]</span>
   <div class="contact-form">
     <div>
       <paper-toast id="toast" text="[[toastMessage]]" duration="4000"></paper-toast>
@@ -100,7 +103,7 @@
         </paper-dropdown-menu>
     </div>
     <div class="submit-field">
-        <paper-button on-tap="addContact" id="add">Add Contact</paper-button>
+        <paper-button on-tap="addContact" id="add">[[buttonLabel]]</paper-button>
     </div>
   </div>
   
@@ -121,10 +124,8 @@
                 value: false
             },
             contacts: {
-              type: Object,
-              observer:'observeContacts'
+              type: Object
             },
-
             firstName: String,
             middleName: String,
             lastName: String,
@@ -136,22 +137,77 @@
             },
             group: String,
             toastMessage: String,
-            key: String
+            key: {
+              type: String,
+            },
+            buttonLabel: {
+              type: String,
+              value: 'Add Contact'
+            },
+            displayMessage: String
         };
       }
 
-      observeContacts(){
-        this.dispatchEvent(new CustomEvent('contact-added', { detail: { contacts: this.contacts }, bubbles: true, composed: true }));
+      ready(){
+        super.ready();
+        let key = window.location.hash.substr(1);
+        this.set('key', '');
+        if(key) {
+          this.set('displayMessage', 'Please wait while we fetch the information.....');
+          this.shadowRoot.querySelector('#spinner').setAttribute('active', true)
+          setTimeout(() => {
+            this.set('key', key);
+            this.editContact(key);
+            this.shadowRoot.querySelector('#spinner').removeAttribute('active');
+            this.set('displayMessage', '');
+          },3000);
+          
+        }
       }
-      
+
+      editContact(key){
+        if(key && this.contacts && this.contacts.length > 0) {
+          let contactToPrePopulate = this.contacts.filter(contact => contact.$key === key);
+          if(contactToPrePopulate && contactToPrePopulate.length > 0) {
+            this.prePopulate(contactToPrePopulate[0]);
+          } else {
+            this.shadowRoot.querySelector('#spinner').removeAttribute('active');
+            this.set('displayMessage', '');
+          }
+        }
+      }
+
+      prePopulate(contactToPrePopulate){
+        this.firstName = contactToPrePopulate.Name.FirstName;
+        this.middleName = contactToPrePopulate.Name.MiddleName;
+        this.lastName = contactToPrePopulate.Name.LastName;
+        this.status = contactToPrePopulate.Status;
+        this.group = contactToPrePopulate.Group;
+        this.email = contactToPrePopulate.Email;
+        this.phone = contactToPrePopulate.Phone;
+        this.buttonLabel = 'Update Contact';
+      }
+
       addContact(){
         if(this.validate()){
           var request = this.createRequest();
-          let success = this.shadowRoot.querySelector('#query').ref.push(request);
-          this.set('toastMessage', 'Contact Successfully Added! Cheers!')
-          this.dispatchEvent(new CustomEvent('contact-added', { detail: { contacts: this.contacts }, bubbles: true, composed: true }));
-          this.shadowRoot.querySelector('#toast').open();
-          this.reset();
+          this.set('displayMessage', 'Please wait while we complete your request.');
+          this.shadowRoot.querySelector('#spinner').setAttribute('active', true);
+          if(this.key){
+            this.shadowRoot.querySelector('#query').ref.child(this.key).remove();
+            this.set('toastMessage', 'Contact Updated Successfully!')
+            let success = this.shadowRoot.querySelector('#query').ref.push(request);
+          }
+          else{
+            let success = this.shadowRoot.querySelector('#query').ref.push(request);
+            this.set('toastMessage', 'Contact Successfully Added! Cheers!')
+          }
+          setTimeout(()=> {
+            this.dispatchEvent(new CustomEvent('contact-added', { detail: { contacts: this.contacts }, bubbles: true, composed: true }));
+            this.shadowRoot.querySelector('#spinner').removeAttribute('active')
+            this.shadowRoot.querySelector('#toast').open();
+            this.reset();
+          },3000);
         }
       }
 
@@ -189,6 +245,9 @@
         this.group = '';
         this.email = '';
         this.phone = '';
+        this.buttonLabel = 'Add Contact';
+        this.key = '';
+        this.set('displayMessage', '');
       }
       
     }
