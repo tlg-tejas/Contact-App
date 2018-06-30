@@ -1,0 +1,3750 @@
+{
+  "index.html": {
+    "../webcomponentsjs/webcomponents-loader.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/contact-app/contact-app.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/polymer-element.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/boot.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/settings.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/resolve-url.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/style-gather.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-module.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-effects.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/path.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/case-map.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-accessors.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-changed.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/async.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/template-stamp.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/html-tag.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout-classes.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/polymer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/legacy-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/gesture-event-listeners.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/gestures.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/debounce.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/dir-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/import-href.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/render-status.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/unresolved.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer.dom.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flattened-nodes-observer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/array-splice.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flush.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer-fn.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/class.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/templatizer-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/templatize.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/mutable-data.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-bind.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-repeat.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-if.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/array-selector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/custom-style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/mutable-data-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-selector/iron-selector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-selector/iron-multi-selectable.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-selector/iron-selectable.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-selector/iron-selection.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-button/paper-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-button-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-button-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-keys-behavior/iron-a11y-keys-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-control-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-ripple-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-ripple/paper-ripple.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/element-styles/paper-material-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/shadow.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-pages/iron-pages.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-resizable-behavior/iron-resizable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-route/app-route.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-route/app-location.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-location/iron-location.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-location/iron-query-params.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-route/app-route-converter-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/contact-app/app-header.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-auth.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-common-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-network-status-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-app-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymerfire/firebase-auth-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-auth.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/common-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/contact-app/pre-login-notes.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-database.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymerfire/firebase-app.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-storage-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-storage.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymerfire/firebase-messaging-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-messaging.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymerfire/firebase-query.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-storage-behavior.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/contact-app/my-family.html": {
+    "../polymer/polymer-element.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/boot.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/settings.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/resolve-url.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/style-gather.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-module.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-effects.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/path.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/case-map.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-accessors.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-changed.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/async.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/template-stamp.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/html-tag.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout-classes.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/polymer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/legacy-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/gesture-event-listeners.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/gestures.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/debounce.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/dir-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/import-href.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/render-status.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/unresolved.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer.dom.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flattened-nodes-observer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/array-splice.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flush.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer-fn.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/class.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/templatizer-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/templatize.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/mutable-data.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-bind.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-repeat.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-if.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/array-selector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/custom-style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/mutable-data-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-query.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-storage-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-common-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-network-status-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-app-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-database.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../paper-input/paper-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-form-element-behavior/iron-form-element-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-input/iron-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-announcer/iron-a11y-announcer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-validatable-behavior/iron-validatable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-meta/iron-meta.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-keys-behavior/iron-a11y-keys-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-control-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-char-counter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../font-roboto/roboto.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-addon-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-container.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/default-theme.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-error.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-button/paper-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-button-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-button-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-ripple-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-ripple/paper-ripple.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/element-styles/paper-material-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/shadow.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/version.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/font-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/sizing.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/spacing.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-checkbox/theme/lumo/vaadin-checkbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-checkbox/src/vaadin-checkbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-themable-mixin/vaadin-themable-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-control-state-mixin/vaadin-control-state-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-element-mixin/vaadin-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-development-mode-detector/vaadin-development-mode-detector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-scroller.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/iron-list.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-resizable-behavior/iron-resizable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-scroll-target-behavior/iron-scroll-target-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-data-provider-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-scroll-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-keyboard-navigation-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-combined-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-column-reordering-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-templatizer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-outer-scroller.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/theme/lumo/vaadin-text-field.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/src/vaadin-text-field.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/src/vaadin-text-field-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-icon-button/paper-icon-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icon/iron-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-inky-focus-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icons/iron-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-iconset-svg/iron-iconset-svg.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-toast/paper-toast.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-fit-behavior/iron-fit-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-backdrop.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-scroll-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-focusables-helper.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/common-styles.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/contact-app/my-contacts.html": {
+    "../polymer/polymer-element.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/boot.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/settings.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/resolve-url.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/style-gather.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-module.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-effects.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/path.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/case-map.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-accessors.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-changed.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/async.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/template-stamp.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/html-tag.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout-classes.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/polymer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/legacy-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/gesture-event-listeners.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/gestures.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/debounce.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/dir-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/import-href.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/render-status.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/unresolved.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer.dom.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flattened-nodes-observer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/array-splice.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flush.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer-fn.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/class.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/templatizer-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/templatize.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/mutable-data.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-bind.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-repeat.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-if.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/array-selector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/custom-style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/mutable-data-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-query.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-storage-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-common-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-network-status-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-app-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-database.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../paper-input/paper-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-form-element-behavior/iron-form-element-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-input/iron-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-announcer/iron-a11y-announcer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-validatable-behavior/iron-validatable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-meta/iron-meta.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-keys-behavior/iron-a11y-keys-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-control-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-char-counter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../font-roboto/roboto.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-addon-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-container.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/default-theme.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-error.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-button/paper-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-button-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-button-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-ripple-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-ripple/paper-ripple.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/element-styles/paper-material-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/shadow.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/version.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/font-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/sizing.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/spacing.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-checkbox/theme/lumo/vaadin-checkbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-checkbox/src/vaadin-checkbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-themable-mixin/vaadin-themable-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-control-state-mixin/vaadin-control-state-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-element-mixin/vaadin-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-development-mode-detector/vaadin-development-mode-detector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-scroller.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/iron-list.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-resizable-behavior/iron-resizable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-scroll-target-behavior/iron-scroll-target-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-data-provider-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-scroll-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-keyboard-navigation-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-combined-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-column-reordering-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-templatizer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-outer-scroller.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/theme/lumo/vaadin-text-field.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/src/vaadin-text-field.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/src/vaadin-text-field-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-icon-button/paper-icon-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icon/iron-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-inky-focus-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icons/iron-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-iconset-svg/iron-iconset-svg.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-toast/paper-toast.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-fit-behavior/iron-fit-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-backdrop.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-scroll-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-focusables-helper.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/common-styles.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/contact-app/my-friends.html": {
+    "../polymer/polymer-element.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/boot.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/settings.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/resolve-url.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/style-gather.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-module.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-effects.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/path.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/case-map.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-accessors.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-changed.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/async.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/template-stamp.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/html-tag.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout-classes.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/polymer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/legacy-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/gesture-event-listeners.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/gestures.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/debounce.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/dir-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/import-href.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/render-status.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/unresolved.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer.dom.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flattened-nodes-observer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/array-splice.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flush.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer-fn.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/class.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/templatizer-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/templatize.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/mutable-data.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-bind.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-repeat.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-if.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/array-selector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/custom-style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/mutable-data-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-query.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-storage-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-common-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-network-status-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-app-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-database.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../paper-input/paper-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-form-element-behavior/iron-form-element-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-input/iron-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-announcer/iron-a11y-announcer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-validatable-behavior/iron-validatable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-meta/iron-meta.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-keys-behavior/iron-a11y-keys-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-control-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-char-counter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../font-roboto/roboto.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-addon-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-container.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/default-theme.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-error.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-button/paper-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-button-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-button-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-ripple-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-ripple/paper-ripple.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/element-styles/paper-material-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/shadow.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/version.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/font-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/sizing.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/spacing.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-checkbox/theme/lumo/vaadin-checkbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-checkbox/src/vaadin-checkbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-themable-mixin/vaadin-themable-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-control-state-mixin/vaadin-control-state-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-element-mixin/vaadin-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-development-mode-detector/vaadin-development-mode-detector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-scroller.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/iron-list.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-resizable-behavior/iron-resizable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-scroll-target-behavior/iron-scroll-target-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-data-provider-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-scroll-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-keyboard-navigation-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-combined-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-column-reordering-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-templatizer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-outer-scroller.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/theme/lumo/vaadin-text-field.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/src/vaadin-text-field.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/src/vaadin-text-field-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-icon-button/paper-icon-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icon/iron-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-inky-focus-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icons/iron-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-iconset-svg/iron-iconset-svg.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-toast/paper-toast.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-fit-behavior/iron-fit-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-backdrop.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-scroll-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-focusables-helper.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/common-styles.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/contact-app/my-acquaintances.html": {
+    "../polymer/polymer-element.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/boot.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/settings.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/resolve-url.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/style-gather.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-module.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-effects.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/path.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/case-map.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-accessors.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-changed.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/async.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/template-stamp.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/html-tag.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout-classes.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/polymer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/legacy-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/gesture-event-listeners.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/gestures.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/debounce.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/dir-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/import-href.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/render-status.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/unresolved.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer.dom.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flattened-nodes-observer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/array-splice.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flush.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer-fn.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/class.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/templatizer-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/templatize.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/mutable-data.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-bind.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-repeat.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-if.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/array-selector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/custom-style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/mutable-data-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-query.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-storage-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-common-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-network-status-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-app-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-database.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../paper-input/paper-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-form-element-behavior/iron-form-element-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-input/iron-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-announcer/iron-a11y-announcer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-validatable-behavior/iron-validatable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-meta/iron-meta.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-keys-behavior/iron-a11y-keys-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-control-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-char-counter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../font-roboto/roboto.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-addon-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-container.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/default-theme.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-error.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-button/paper-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-button-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-button-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-ripple-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-ripple/paper-ripple.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/element-styles/paper-material-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/shadow.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/version.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/font-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/sizing.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/spacing.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-checkbox/theme/lumo/vaadin-checkbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-checkbox/src/vaadin-checkbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-themable-mixin/vaadin-themable-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-control-state-mixin/vaadin-control-state-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-element-mixin/vaadin-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-development-mode-detector/vaadin-development-mode-detector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-scroller.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/iron-list.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-resizable-behavior/iron-resizable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-scroll-target-behavior/iron-scroll-target-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-data-provider-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-scroll-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-keyboard-navigation-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-combined-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-column-reordering-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-templatizer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-outer-scroller.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/theme/lumo/vaadin-text-field.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/src/vaadin-text-field.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/src/vaadin-text-field-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-icon-button/paper-icon-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icon/iron-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-inky-focus-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icons/iron-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-iconset-svg/iron-iconset-svg.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-toast/paper-toast.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-fit-behavior/iron-fit-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-backdrop.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-scroll-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-focusables-helper.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/common-styles.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/contact-app/my-following.html": {
+    "../polymer/polymer-element.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/boot.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/settings.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/resolve-url.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/style-gather.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-module.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-effects.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/path.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/case-map.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-accessors.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-changed.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/async.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/template-stamp.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/html-tag.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout-classes.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/polymer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/legacy-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/gesture-event-listeners.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/gestures.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/debounce.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/dir-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/import-href.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/render-status.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/unresolved.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer.dom.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flattened-nodes-observer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/array-splice.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flush.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer-fn.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/class.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/templatizer-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/templatize.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/mutable-data.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-bind.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-repeat.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-if.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/array-selector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/custom-style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/mutable-data-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-query.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-storage-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-common-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-network-status-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-app-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-database.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../paper-input/paper-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-form-element-behavior/iron-form-element-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-input/iron-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-announcer/iron-a11y-announcer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-validatable-behavior/iron-validatable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-meta/iron-meta.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-keys-behavior/iron-a11y-keys-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-control-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-char-counter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../font-roboto/roboto.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-addon-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-container.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/default-theme.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-error.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-button/paper-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-button-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-button-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-ripple-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-ripple/paper-ripple.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/element-styles/paper-material-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/shadow.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/version.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/font-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/sizing.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/spacing.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-lumo-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-checkbox/theme/lumo/vaadin-checkbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-checkbox/src/vaadin-checkbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-themable-mixin/vaadin-themable-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-control-state-mixin/vaadin-control-state-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-element-mixin/vaadin-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-development-mode-detector/vaadin-development-mode-detector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-scroller.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/iron-list.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-resizable-behavior/iron-resizable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-scroll-target-behavior/iron-scroll-target-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-data-provider-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-scroll-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-keyboard-navigation-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-combined-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-column-reordering-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-templatizer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-outer-scroller.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-column.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-sorter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/theme/lumo/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/theme/lumo/vaadin-text-field.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/src/vaadin-text-field.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vaadin-text-field/src/vaadin-text-field-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../vadin-grid/src/vaadin-grid-filter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-icon-button/paper-icon-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icon/iron-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-inky-focus-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icons/iron-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-iconset-svg/iron-iconset-svg.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-toast/paper-toast.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-fit-behavior/iron-fit-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-backdrop.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-scroll-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-focusables-helper.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/common-styles.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/contact-app/my-new.html": {
+    "../polymer/polymer-element.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/boot.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/settings.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/resolve-url.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/style-gather.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-module.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-effects.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/path.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/case-map.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-accessors.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-changed.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/async.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/template-stamp.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/html-tag.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout-classes.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/polymer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/legacy-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/gesture-event-listeners.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/gestures.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/debounce.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/dir-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/import-href.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/render-status.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/unresolved.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer.dom.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flattened-nodes-observer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/array-splice.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flush.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer-fn.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/class.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/templatizer-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/templatize.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/mutable-data.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-bind.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-repeat.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-if.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/array-selector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/custom-style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/mutable-data-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-query.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-storage-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-common-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../app-storage/app-network-status-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymerfire/firebase-app-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymerfire/firebase-database-script.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../firebase/firebase-database.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../paper-input/paper-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-form-element-behavior/iron-form-element-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-input/iron-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-announcer/iron-a11y-announcer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-validatable-behavior/iron-validatable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-meta/iron-meta.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-a11y-keys-behavior/iron-a11y-keys-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-control-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-char-counter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/typography.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../font-roboto/roboto.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-addon-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-container.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/default-theme.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/color.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-input/paper-input-error.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-button/paper-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-button-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-behaviors/iron-button-state.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-behaviors/paper-ripple-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-ripple/paper-ripple.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/element-styles/paper-material-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-styles/shadow.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-dropdown-menu/paper-dropdown-menu.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icon/iron-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-menu-button/paper-menu-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-dropdown/iron-dropdown.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-fit-behavior/iron-fit-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-resizable-behavior/iron-resizable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-overlay-backdrop.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-scroll-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-overlay-behavior/iron-focusables-helper.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../neon-animation/neon-animation-runner-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../neon-animation/neon-animatable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-dropdown/iron-dropdown-scroll-manager.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../neon-animation/animations/fade-in-animation.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../neon-animation/neon-animation-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../neon-animation/animations/fade-out-animation.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-menu-button/paper-menu-button-animations.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-dropdown-menu/paper-dropdown-menu-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-iconset-svg/iron-iconset-svg.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-dropdown-menu/paper-dropdown-menu-shared-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-listbox/paper-listbox.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-menu-behavior/iron-menu-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-selector/iron-multi-selectable.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-selector/iron-selectable.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-selector/iron-selection.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-item/paper-item.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-item/paper-item-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-item/paper-item-shared-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icons/iron-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-icons/communication-icons.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-toast/paper-toast.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../paper-spinner/paper-spinner-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/common-styles.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/contact-app/my-view404.html": {
+    "../polymer/polymer-element.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/boot.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/settings.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/resolve-url.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/style-gather.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-module.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-effects.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/path.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/case-map.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/property-accessors.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-changed.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/async.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/template-stamp.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/properties-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/html-tag.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout-classes.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/polymer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/legacy-element-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/apply-shim.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/gesture-event-listeners.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/gestures.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/debounce.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/dir-mixin.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/import-href.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/render-status.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/unresolved.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer.dom.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flattened-nodes-observer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/array-splice.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/flush.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/polymer-fn.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/class.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/templatizer-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/utils/templatize.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/mixins/mutable-data.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-bind.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-repeat.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/dom-if.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/array-selector.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../polymer/lib/elements/custom-style.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../shadycss/custom-style-interface.min.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "../polymer/lib/legacy/mutable-data-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "../iron-flex-layout/iron-flex-layout.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/common-styles.html": {
+      "type": "document",
+      "weight": 1
+    }
+  }
+}

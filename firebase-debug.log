@@ -1,0 +1,41 @@
+[debug] [2018-06-30T18:12:28.108Z] ----------------------------------------------------------------------
+[debug] [2018-06-30T18:12:28.110Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tkatariya\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-30T18:12:28.111Z] CLI Version:   3.19.1
+[debug] [2018-06-30T18:12:28.111Z] Platform:      win32
+[debug] [2018-06-30T18:12:28.111Z] Node Version:  v8.10.0
+[debug] [2018-06-30T18:12:28.113Z] Time:          Sat Jun 30 2018 23:42:28 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T18:12:28.113Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-30T18:12:28.125Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-30T18:12:28.126Z] > authorizing via signed-in user
+[debug] [2018-06-30T18:12:28.129Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/contact-app-cec31  
+  
+ Sat Jun 30 2018 23:42:28 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T18:12:29.525Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-30T18:12:29.526Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/contact-app-cec31/tokens  
+  
+ Sat Jun 30 2018 23:42:29 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T18:12:30.496Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'contact-app-cec31'...
+[info] 
+[info] i  deploying database, hosting
+[info] i  database: checking rules syntax...
+[debug] [2018-06-30T18:12:32.148Z] >>> HTTP REQUEST PUT https://contact-app-cec31.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    }
+  }
+} 
+ Sat Jun 30 2018 23:42:32 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T18:12:33.332Z] <<< HTTP RESPONSE 200
+[info] +  database: rules syntax for database contact-app-cec31 is valid
+[info] i  hosting: preparing / directory for upload...
+[debug] [2018-06-30T18:12:38.083Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/contact-app-cec31/uploads/-LGGtQwx2GSr7NMWDZ-e?fileCount=3141&message=  
+  
+ Sat Jun 30 2018 23:42:38 GMT+0530 (India Standard Time)
